@@ -1,0 +1,136 @@
+nav {
+    background-color: #a84c64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .RS {
+    text-align: center;
+    background-color: #a84c64;
+    color: white;
+    font-size: 30px;
+  }
+
+
+  nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+    border-right: 1px solid black;
+    background-color: #a84c64;
+  }
+  
+  nav a:last-child {
+    border-right: 0px;
+  }
+  
+  #imagemescritorio {
+    width: 100%;
+    height: 700px;
+    border: 0px;
+  }
+  
+  #conteudo {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  #texto {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #imagens {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 1000px;
+    justify-content: center;
+  }
+  
+  #linha1 {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #linha2 {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #linha3 {
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  figure {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fotos {
+    border: 3px solid #a84c64;
+    height: 300px;
+    width: 250px;
+  }
+  
+  figcaption {
+    background-color: #a84c64;
+    width: 249px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+  
+  body {
+    background-color: antiquewhite;
+  }
+  
+  footer {
+    width: 100%;
+    height: 50px;
+    background-color: #a84c64;
+  }
+  
+  h2 {
+    padding-right: 250px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    color: #a84c64;
+  }
+  
+  p {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: brown;
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0%;
+  }
